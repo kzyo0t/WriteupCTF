@@ -1,4 +1,4 @@
-#Old Attack(step1)
+# Old Attack(step1)
 
 The web is down now, so I will show some capture from my burpsuite
 When login to the website, the userpage at 150.109.197.222/userpage/796 show a text Hi,kzy >TO BE ADMIN:)
@@ -32,4 +32,5 @@ public function userpage(Request $request,$id)
               $usern='admin';
               ......
  ```         
-Sorry for my bad grammar :) 
+
+English is not my mother tongue; please excuse any errors on my part.
