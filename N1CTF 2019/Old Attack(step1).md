@@ -13,9 +13,10 @@ when I add 255 charater "a" as username. the auth_name is:
 /IxmlZ2Od/YDGxEIvA5vq/yMZpWdjnf2AxsRCLwOb6v8jGaVnY539gMbEQi8Dm+r/IxmlZ2Od/YDGxEIvA5vq/yMZpWdjnf2AxsRCLwOb6v8jGaVnY539gMbEQi8Dm+r/IxmlZ2Od/YDGxEIvA5vq/yMZpWdjnf2AxsRCLwOb6v8jGaVnY539gMbEQi8Dm+r/IxmlZ2Od/YDGxEIvA5vq/yMZpWdjnf2AxsRCLwOb6v8jGaVnY539gMbEQi8Dm+r/IxmlZ2Od/YDGxEIvA5vq/yMZpWdjnf2AxsRCLwOb6v8jGaVnY539gMbEQi8Dm+rm3uAxwpX2swVtiiJzRSQ2w==
 ```
 you can see the blocksize is 48 byte. => the payload you need to create is 48*"a"+"admin"
+Using ciphertext "admin" create as auth_name 
 ![userpage_admin](userpage_admin.png)
-So you can see the image of the flag when you can auth_name to admin
-the code check you can see is:
+So you can see the image of the flag on userpage
+the code web check you can see is:
 ```php
 .......
 public function userpage(Request $request,$id)
@@ -30,3 +31,4 @@ public function userpage(Request $request,$id)
               $usern='admin';
               ......
  ```         
+Sorry for my bad grammar :) 
